@@ -4,8 +4,8 @@
   import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
   let sectionRef: HTMLElement;
-  let cardsRef: HTMLElement[] = [];
-  let exitCardsRef: HTMLElement[] = [];
+  let cardsRef: HTMLElement[] = $state([]);
+  let exitCardsRef: HTMLElement[] = $state([]);
   let ctaRef: HTMLElement;
 
   const activeBrands = [
@@ -173,19 +173,9 @@
           <div 
             bind:this={exitCardsRef[i]}
             data-opacity="0.6"
-            class="brand-card concluded-card group relative flex flex-col p-6 md:p-8 border border-secondary/10 bg-primary opacity-0 h-auto cursor-pointer"
+            class="brand-card concluded-card group relative flex flex-col p-6 md:p-8 border border-secondary/10 bg-primary opacity-0 h-auto"
             style="--accent-color: {brand.color}; --accent-light: {brand.color}10; --accent-text: rgba(255,255,255,0.4);"
-            onclick={() => openBrandUrl(brand.url)}
-            role="link"
-            tabindex="0"
-            onkeydown={(e) => { if (e.key === 'Enter') openBrandUrl(brand.url); }}
           >
-            <!-- Arrow icon top-right -->
-            <div class="link-arrow-concluded absolute top-4 right-4 md:top-6 md:right-6 w-7 h-7 md:w-8 md:h-8 rounded-full border border-secondary/10 flex items-center justify-center transition-all duration-500 opacity-40 group-hover:opacity-80 group-hover:border-secondary/30">
-              <svg width="10" height="10" viewBox="0 0 14 14" fill="none" class="transition-transform duration-500">
-                <path d="M1 13L13 1M13 1H3M13 1V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </div>
 
             <div class="flex justify-between items-start mb-6 gap-2">
               <div class="flex flex-wrap gap-1.5">
