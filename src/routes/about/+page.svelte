@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>About - Fist Kolektif</title>
+  <title>About - FIST Kolektif</title>
 </svelte:head>
 
 <section class="min-h-screen w-full bg-primary text-secondary pt-32 pb-16 px-4 md:px-12 lg:px-24 flex items-center justify-center">
@@ -15,7 +15,7 @@
     
     <div class="space-y-8 font-sans text-lg md:text-xl text-secondary/80 leading-relaxed">
       <p>
-        Fist Kolektif is an alternative business ecosystem and united collective of builders. 
+        FIST Kolektif is an alternative business ecosystem and united collective of builders. 
         We operate outside the noise, funding our own vision and building our own reality.
       </p>
       
@@ -41,5 +41,5 @@
 </section>
 
 <footer class="w-full bg-primary pb-8 text-center z-10 relative">
-  <p class="font-sans text-xs tracking-widest uppercase text-secondary/40">2026 © Fist Kolektif LLC</p>
+  <p class="font-sans text-xs tracking-widest uppercase text-secondary/40">2026 © FIST Kolektif LLC</p>
 </footer>

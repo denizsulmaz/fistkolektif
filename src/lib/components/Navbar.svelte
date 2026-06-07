@@ -9,7 +9,7 @@
   <div class="flex justify-between items-center w-full max-w-7xl mx-auto pointer-events-auto">
     <!-- Logo Placeholder -->
     <a href="/" class="font-branch text-2xl md:text-3xl uppercase tracking-widest hover:opacity-70 transition-opacity">
-      Fist Kolektif
+      FIST Kolektif
     </a>
     
     <div class="flex items-center gap-6">

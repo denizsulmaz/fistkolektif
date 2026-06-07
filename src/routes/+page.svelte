@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-  <title>Fist Kolektif</title>
+  <title>FIST Kolektif</title>
 </svelte:head>
 
 <Navbar />

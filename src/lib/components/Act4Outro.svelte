@@ -9,7 +9,8 @@
     </a>
   </div>
   <div class="absolute bottom-6 left-0 right-0 flex flex-col items-center gap-2 font-sans text-xs tracking-widest uppercase opacity-50">
-    <p class="opacity-70">2026 &copy; Fist Kolektif LLC</p>
+    <p class="tracking-[0.2em] font-medium text-secondary/80 text-center px-4">United Collective of Builders</p>
+    <p class="opacity-70 text-[10px]">2026 &copy; FIST Kolektif LLC</p>
   </div>
 </section>
 
