@@ -14,7 +14,7 @@
       industry: 'Human Rights',
       medium: 'Non-profit',
       color: '#3C0672',
-      desc: 'A non-profit organization focused on human rights and humanitarian relief.',
+      desc: 'A non-profit organization focused on human rights.',
       url: 'https://vforhuman.org',
     },
     { 
@@ -38,7 +38,7 @@
       industry: 'Connection',
       medium: 'Mobile App',
       color: '#850D48',
-      desc: 'A mobile application for connecting active walkers in local neighborhoods.',
+      desc: 'A mobile application for connecting active walkers.',
       url: 'https://socialwalkers.com',
     }
   ];
